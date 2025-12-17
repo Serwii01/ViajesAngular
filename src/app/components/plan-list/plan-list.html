@@ -1,0 +1,16 @@
+<h3>Medios de transporte</h3>
+
+<div class="row mt-3">
+  <div
+    class="col-12 col-md-6 col-lg-3 mb-3"
+    *ngFor="let t of transportes"
+  >
+    <div class="card h-100 text-center">
+      <div class="card-body">
+        <div class="icono mb-2">{{ t.icono }}</div>
+        <h5 class="card-title">{{ t.nombre }}</h5>
+        <p class="card-text">{{ t.descripcion }}</p>
+      </div>
+    </div>
+  </div>
+</div>

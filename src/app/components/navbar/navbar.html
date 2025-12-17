@@ -1,0 +1,24 @@
+<header class="navbar">
+  <div class="navbar-inner">
+    <div class="navbar-title">
+      <span>Mini Web de Planes</span>
+    </div>
+
+    <nav class="navbar-links">
+      <a
+        routerLink="/destinos"
+        routerLinkActive="active"
+        [routerLinkActiveOptions]="{ exact: true }"
+      >
+        Destinos
+      </a>
+
+      <a
+        routerLink="/transportes"
+        routerLinkActive="active"
+      >
+        Medios de transporte
+      </a>
+    </nav>
+  </div>
+</header>

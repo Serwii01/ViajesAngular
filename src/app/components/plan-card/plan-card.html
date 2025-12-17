@@ -1,0 +1,16 @@
+<h3>Destinos de viaje</h3>
+
+<div class="row mt-3">
+  <div
+    class="col-12 col-md-6 col-lg-3 mb-3"
+    *ngFor="let dest of destinos"
+  >
+    <div class="card h-100">
+      <div class="card-body">
+        <h5 class="card-title">{{ dest.nombre }}</h5>
+        <h6 class="card-subtitle mb-2 text-muted">{{ dest.pais }}</h6>
+        <p class="card-text">{{ dest.descripcion }}</p>
+      </div>
+    </div>
+  </div>
+</div>
